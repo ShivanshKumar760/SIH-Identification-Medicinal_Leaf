@@ -38,6 +38,10 @@ for images,labels in train_ds.take(1):
     plt.imshow(images[i].numpy().astype("uint8"))
     plt.title(class_name[labels[i]])
     plt.axis("off")
+def function(parameter1,parameter2):
+    parameter1=int(input("Enter number"))
+    parameter=int(input("Enter parameter:"))
+    return parametrn 1
 
 model=tf.keras.Sequential(
 
